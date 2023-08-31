@@ -142,6 +142,7 @@ body {
   }
   #mobile-menu {
     background-color: #1d2c82;
+    margin: 0px;
     display: block;
     font-size: 3rem;
     min-width: 20%;
@@ -153,7 +154,7 @@ body {
     /* background: rgb(29, 44, 130); */
     cursor: pointer;
     width: fit-content;
-    margin: 0 auto;
+    margin: 0px;
     margin-bottom: 4rem;
     font-size: 3rem;
     color: whitesmoke;
@@ -205,6 +206,7 @@ body {
   }
   #mobile-menu {
     background-color: #1d2c82;
+    margin: 0px;
     display: block;
     font-size: 15px;
     min-width: 20%;
