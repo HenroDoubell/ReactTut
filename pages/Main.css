@@ -43,34 +43,6 @@ body {
 
 
 
-@media (max-width: 500px) {
-  #topic {
-    background: green;
-    display: None;
-  }
-  #mobile-menu {
-    background-color: #1d2c82;
-    display: block;
-    font-size: 15px;
-    min-width: 20%;
-    color:whitesmoke;
-    cursor: pointer;
-    text-decoration: none;
-  }
-
-  #topic li {
-    /* background: rgb(29, 44, 130); */
-    cursor: pointer;
-    width: fit-content;
-    margin: 0 auto;
-    margin-bottom: 4rem;
-    font-size: 40px;
-    color: whitesmoke;
-    text-decoration: none;
-    position: sticky;
-  }
-}
-
 
 #topic li {
   /* background: rgb(29, 44, 130); */
@@ -161,7 +133,7 @@ body {
 
 @media (max-width: 904px) {
   #topic {
-    background: red;
+    /* background: red; */
     display: none;
   }
   .mobile-menu-button{
@@ -228,7 +200,7 @@ body {
 
 @media (max-width: 500px) {
   #topic {
-    background: green;
+    /* background: green; */
     display: None;
   }
   #mobile-menu {
