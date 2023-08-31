@@ -40,37 +40,8 @@ body {
 }
 
 
-@media (max-width: 904px) {
-  #topic {
-    background: red;
-    display: none;
-  }
-  .mobile-menu-button{
-    display: block;
-    /* color: #1d2c82; */
-  }
-  #mobile-menu {
-    background-color: #1d2c82;
-    display: block;
-    font-size: 15px;
-    min-width: 20%;
-    color:whitesmoke;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  #topic li {
-    /* background: rgb(29, 44, 130); */
-    cursor: pointer;
-    width: fit-content;
-    margin: 0 auto;
-    margin-bottom: 4rem;
-    font-size: 40px;
-    color: whitesmoke;
-    text-decoration: none;
-    position: sticky;
-  }
 
-}
+
 
 @media (max-width: 500px) {
   #topic {
@@ -186,4 +157,135 @@ body {
 .help p {
   font-size: 3rem;
   color: #7cfc00;
+}
+
+@media (max-width: 904px) {
+  #topic {
+    background: red;
+    display: none;
+  }
+  .mobile-menu-button{
+    display: block;
+    /* color: #1d2c82; */
+  }
+  #mobile-menu {
+    background-color: #1d2c82;
+    display: block;
+    font-size: 3rem;
+    min-width: 20%;
+    color:whitesmoke;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  #topic li {
+    /* background: rgb(29, 44, 130); */
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-decoration: none;
+    position: sticky;
+  }
+  .home h1{
+    font-size: 2rem;
+  }
+
+  .home p{
+    font-size: 1rem;
+  }
+  .about h1 {
+    font-size: 2rem;
+    color: #adff2f;
+  }
+
+  .about p {
+    font-size: 1rem;
+    color: #00ffff;
+  }
+
+  .setting h1 {
+    font-size: 2rem;
+    color: #dc143c;
+  }
+
+  .setting p {
+    font-size: 1rem;
+    color: #ff1493;
+  }
+
+  .help h1 {
+    font-size: 2rem;
+    color: #adff2f;
+  }
+
+  .help p {
+    font-size: 1rem;
+    color: #7cfc00;
+  }
+}
+
+@media (max-width: 500px) {
+  #topic {
+    background: green;
+    display: None;
+  }
+  #mobile-menu {
+    background-color: #1d2c82;
+    display: block;
+    font-size: 15px;
+    min-width: 20%;
+    color:whitesmoke;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #topic li {
+    /* background: rgb(29, 44, 130); */
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    font-size: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+    position: sticky;
+  }
+  .home h1{
+    font-size: 2rem;
+  }
+
+  .home p{
+    font-size: 1rem;
+  }
+  .about h1 {
+    font-size: 2rem;
+    color: #adff2f;
+  }
+
+  .about p {
+    font-size: 1rem;
+    color: #00ffff;
+  }
+
+  .setting h1 {
+    font-size: 2rem;
+    color: #dc143c;
+  }
+
+  .setting p {
+    font-size: 1rem;
+    color: #ff1493;
+  }
+
+  .help h1 {
+    font-size: 2rem;
+    color: #adff2f;
+  }
+
+  .help p {
+    font-size: 1rem;
+    color: #7cfc00;
+  }
 }
