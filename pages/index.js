@@ -2,15 +2,15 @@ import { useState, useEffect } from "react";
 
 export default function Main() {
   const [selectedTopic, setSelectedTopic] = useState(null);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState('display-none');
 
   const handleTopicClick = (topic) => {
     setSelectedTopic(topic);
-    setIsMobileMenuOpen(false);
   };
 
   const MobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsMobileMenuOpen(display => display === "display-none" ? "display" : "display-none");
+    console.log("running")
   };
 
   useEffect(() => {
@@ -34,7 +34,7 @@ export default function Main() {
         </div>
       )}
 
-      <div id="topic">
+      <div id="topic" className={isMobileMenuOpen}>
         <li id="Home" onClick={() => handleTopicClick("Home")}>
           Home 😂
         </li>
